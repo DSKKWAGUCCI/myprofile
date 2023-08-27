@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+  <head>
+    <title>MyProfile</title>
+    <meta name="description" content="プロフィールを掲載しています">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/resset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+    <!-- ナビゲーション -->
+    <body>
+    <header>
+      <nav class="nav">
+        <div class="title">MyProfile</div>
+          <input type="checkbox" id="F">
+          <label class="btn" for="F">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+          </label>
+        <div class="menu">
+            <ul class="menu_list">
+              <li><a href="#about">About</a></li>
+              <li><a href="#works">Works</a></li>
+            </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- メイン写真 -->
+    <div id="mainview">
+      <img src="images/img-2.jpg" alt="camera" class="mainpics">
+    </div>
+    
+    <!-- aboutのセクション -->
+    <section id="about">
+      <h1>About</h1>
+      <div class="about">
+        <div class="self_photo">
+         <img src="images/img-4.jpg" alt="自己写真" class="circle">
+        </div>
+        <div class="name_list">
+         <p class="name">muddpitt</p>
+         <ul>
+          <li>38歳 京都府出身</li>
+          <li>龍谷大学卒業後、OA機器の商社へ入社</li>
+          <li>現在は防犯カメラの営業や映像制作などを行う</li>
+          <li>新たにWeb制作の勉強中</li>
+         </ul>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- worksのセクション -->
+    <section id="works">
+      <h1>Works</h1>
+      <div class="works_container">
+        <div class="works_item01">
+          <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/w9pXOEpzNbQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <p>託児室を併設されている美容室様のリクルートムービー</p>
+        </div>
+        <div class="works_item02">
+          <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/yFlg-EVIank" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <p>出張タイヤ交換をされている会社様のコーポレートムービー</p>
+        </div>
+         <div class="works_item03">
+          <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/b6TZyzOjyUg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <p>就労継続支援B型事業所【豆カフェ】様のご紹介ムービー</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- フッター -->
+    <footer>
+      <p>&#169;MyProfile. All rights reserved.</p>
+    </footer>
+    
+   </body>
+</html>
