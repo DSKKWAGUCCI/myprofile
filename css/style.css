@@ -211,7 +211,7 @@ color: #000000;
     display:  inline-block;                 /* インラインブロックにする */
     position:  relative;                    /* アイコンの位置を調整 */
     top: 5px;                             /* アイコンの位置を調整 */
-    background-image:  url(images/hash.svg);  /* アイコン指定 */
+    background-image:  url(/images/hash.svg);  /* アイコン指定 */
     background-size:  contain;              /* アイコンの大きさ指定 */
     background-repeat:  no-repeat;          /* アイコンをリピートしないようにする */
     vertical-align: top;                    /* アイコンの位置を調整 */
