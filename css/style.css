@@ -384,8 +384,8 @@ footer {
 }
 
 
-/* width769px以上1280px以下の設定 */
-@media screen and (min-width:769px) and (max-width:1280px) {
+/* width769px以上1100px以下の設定 */
+@media screen and (min-width:769px) and (max-width:1100px) {
 .tl_br {
  display: block;
 }
@@ -396,6 +396,9 @@ footer {
 @media screen and (min-width:489px) and ( max-width:768px) {
 .sp_br {
  display: none;
+}
+.tl_br {
+ dispay: none;
 }
 
 }
