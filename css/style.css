@@ -402,7 +402,7 @@ footer {
 @media (max-width: 488px) {
 
  .tl_br {
- display: none;
+ display: block;
 }
 
 }
