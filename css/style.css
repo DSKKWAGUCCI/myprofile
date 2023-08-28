@@ -271,6 +271,11 @@ color: #000000;
   font-family: "游ゴシック体",'Noto Sans',sans-serif;
   
 }
+
+.sp_br {
+  display: none;
+}
+
 /* フッター */
 footer {
   margin-top: 32px;
