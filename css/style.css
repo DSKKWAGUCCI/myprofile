@@ -113,7 +113,6 @@ svg {
     padding: 10px;
     list-style-type: none;
     margin: 0;
-
   
   }
   svg {
@@ -370,4 +369,26 @@ footer {
 } 
 
 }
- 
+
+/* works内の改行　レスポンシブ */ 
+/* width769px以上の設定 */
+
+@media (min-width:769px) {
+
+}
+
+/* width489px以上768px以下の設定 */
+@media screen and (min-width:489px) and ( max-width:768px) {
+.sp_br {
+ display: none;
+}
+
+}
+
+/* width488以下の設定　*/ 
+@media (max-width: 488px) {
+.sp_br {
+ display: block;
+}
+
+}
