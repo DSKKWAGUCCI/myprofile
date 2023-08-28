@@ -374,9 +374,6 @@ footer {
 
 /* width1281px以上の設定 */
 @media (min-width:1382px) {
-.sp_br {
- dispay: none;
-}
 
 .tl_br {
  display: none;
@@ -394,9 +391,7 @@ footer {
 
 /* width489px以上768px以下の設定 */
 @media screen and (min-width:489px) and ( max-width:768px) {
-.sp_br {
- display: none;
-}
+
 .tl_br {
  dispay: none;
 }
@@ -405,9 +400,7 @@ footer {
 
 /* width488以下の設定　*/ 
 @media (max-width: 488px) {
-.sp_br {
- display: block;
-}
+
  .tl_br {
  dispay: none;
 }
