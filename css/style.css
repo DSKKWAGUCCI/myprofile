@@ -408,5 +408,8 @@ footer {
 .sp_br {
  display: block;
 }
+ .tl_br {
+ dispay: none;
+}
 
 }
