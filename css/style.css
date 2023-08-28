@@ -371,9 +371,24 @@ footer {
 }
 
 /* works内の改行　レスポンシブ */ 
-/* width769px以上の設定 */
 
-@media (min-width:769px) {
+/* width1281px以上の設定 */
+@media (min-width:1281px) {
+.sp_br {
+ dispay: none;
+}
+
+.tl_br {
+ display: none;
+}
+}
+
+
+/* width769px以上1280px以下の設定 */
+@media screen and (min-width:769px) and (max-width:1280px) {
+.tl_br {
+ display: block;
+}
 
 }
 
