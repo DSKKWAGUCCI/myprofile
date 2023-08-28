@@ -373,7 +373,7 @@ footer {
 /* works内の改行　レスポンシブ */ 
 
 /* width1281px以上の設定 */
-@media (min-width:1301px) {
+@media (min-width:1382px) {
 .sp_br {
  dispay: none;
 }
@@ -385,7 +385,7 @@ footer {
 
 
 /* width769px以上1000px以下の設定 */
-@media screen and (min-width:769px) and (max-width:1300px) {
+@media screen and (min-width:769px) and (max-width:1381px) {
 .tl_br {
  display: block;
 }
